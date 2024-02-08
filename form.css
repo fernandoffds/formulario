@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+    
+}
+html,body {
+    height: 100%;
+ 
+}
+form {
+    width: 96%;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form fieldset {
+    padding: 0 40px ;
+    border-radius: 30px;
+    border-color: black ;
+ 
+    
+    
+}
+
+form legend {
+text-align: center;
+font-size: 17px;
+}
+
+input[type=text] {
+  margin-top: 50px;
+  width: 80%;
+  padding: 10px 0;
+  border-radius: 4px;
+  margin-left: 40px;
+  
+
+
+
+}
+input[type=text]:hover {
+  background-color: bisque;
+    
+
+
+
+}
+
+input[type=email] {
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-left: 40px;
+  
+  
+  
+}
+
+input[type=email]:hover {
+    background-color: bisque;
+      
+  
+  
+  
+} 
+
+h2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+form select {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 40px;
+
+}
+.radio-input {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.checkbox {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+form textarea {
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 10px 13px;
+    resize: none;
+    border-radius: 8px;
+}
+form textarea:hover {
+    background-color: bisque;
+}
+input[type=submit] {
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 20%;
+    padding: 10px 13px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: aliceblue;
+}
+input[type=submit]:hover {
+    background-color: bisque;
+      
+  
+  
+  
+} 

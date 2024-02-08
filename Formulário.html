@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulário</title>
+        <link href="css/form.css" type="text/css"  rel="stylesheet"/>
+    </head>
+    <body>
+       <form>
+        <fieldset>
+            <legend>Crie sua conta</legend>
+            <input name="nome"    type="text" placeholder="Digite seu nome" />
+            <input name="email"    type="email" placeholder="Digite seu e-mail" />
+            <h2>Qual sua idade ?</h2>
+                <select>
+                    <option></option>
+                    <option>12+</option>
+                    <option>14+</option>
+                    <option>16+</option>
+                    <option>18+</option>
+                </select>
+                <h2>Qual sua cidade ?</h2>
+                <div class="radio-input">
+
+                <div>
+                    <input type="radio" name="radio"/><span>Rio de janeiro</span>
+                </div>
+                <div>
+                    <input type="radio" name="radio"/><span>Seropédica</span>
+                </div>
+                <div>
+                    <input type="radio" name="radio"/><span>São Paulo</span>
+                </div>
+                <div>
+                    <input type="radio" name="radio"/><span>Paracambi</span>
+                </div>
+            </div>
+            <h2>O que você gosta de comer ?</h2>
+            <div class="checkbox">
+             <div>   
+                <input type="checkbox"/><span>Salada</span>
+            </div>
+            <div>
+                <input type="checkbox"/><span>Frutas</span>
+            </div>
+            <div>
+                <input type="checkbox"/><span>Frituras</span>
+            </div>
+            <div>
+                <input type="checkbox"/><span>Churrasco</span>
+            </div>
+        </div>
+            <textarea placeholder="Possui mais alguma obsevação ?"></textarea>
+            <input type="submit" />    
+        </fieldset>
+       </form>
+    </body>
+
+
+
+</html>
